@@ -4,11 +4,12 @@
     <md-list class="md-triple-line">
       <md-list-item >
         <md-avatar>
-          <img src="https://placeimg.com/40/40/people/1" alt="People">
+          <!-- <img src="https://placeimg.com/40/40/people/1" alt="E"> -->
+          <p><strong>E</strong></p>
         </md-avatar>
 
         <div class="md-list-item-text">
-          <span :v-for="(item, index) in items">{{items}}</span>
+          <span :v-for="(item, index) in items">{{items.message}}</span>
           <span>Brunch this weekend?</span>
           <p>I'll be in your neighborhood doing errands this week. Do you want to meet?</p>
         </div>
@@ -75,33 +76,5 @@ export default {
     vertical-align: top;
     border: 1px solid rgba(#000, .12);
   }
+
 </style>
-// items: [
-//         {
-//           id:"1",
-//     message: "Engine for CEO12915 is ON and the taxi is about to move  at  2 Worcester Street Grabouw Grabouw",
-//     subject: "Engine ON for CEO12915",
-//     display: "15-Jun"
-//   },
-//   {
-//     id:"2",
-//     message: "Engine for CF247139 is OFF and the taxi is parked  at  Castle 1 Foreshore Cape Town Cape Town",
-//     subject: "Engine OFF for CF247139",
-//     display: "15-Jun"
-//   },
-//   {
-//     id:"3",
-//     message: "Engine for CF247139 is ON and the taxi is about to move  at  Castle 1 Foreshore Cape Town Cape Town",
-//     subject: "Engine ON for CF247139",
-//     display: "15-Jun"
-//   },
-//     console.log("this.items"),
-//     console.log({
-      
-//     id:"3",
-//     message: "Engine for CF247139 is ON and the taxi is about to move  at  Castle 1 Foreshore Cape Town Cape Town",
-//     subject: "Engine ON for CF247139",
-//     display: "15-Jun"
-//   }),
-//   console.log(this.items)
-//       ],

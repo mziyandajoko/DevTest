@@ -25,5 +25,3 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app')
-
-// AIzaSyBdk5JcwrC7HBaW06Ay_bROf5XHsdJ0Chg
